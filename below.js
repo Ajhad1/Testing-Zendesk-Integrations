@@ -115,4 +115,4 @@ zE('webWidget:on', 'open', function() {
 setTimeout(function(){
     zE('webWidget', 'open')
     zE('webWidget', 'close');
-}, 6000)
+}, 1000)
