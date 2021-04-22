@@ -1,4 +1,4 @@
-// <script src="https://github.com/Ajhad1/Testing-Zendesk-Integrations/blob/main/below.js"></script>
+// <script type="text/javascript" src="https://combinatronics.com/Ajhad1/Testing-Zendesk-Integrations/main/below.js"></script>
 
 // sets default article that explains how to use widget
 // to do - add this script to each page with appropriate search terms
@@ -111,6 +111,8 @@ zE('webWidget:on', 'open', function() {
 });
 
 // opens widget to run code above
-zE('webWidget', 'open');
 // closes widget to reset it
-zE('webWidget', 'close');
+setTimeout(function(){
+    zE('webWidget', 'open')
+    zE('webWidget', 'close');
+}, 600)
