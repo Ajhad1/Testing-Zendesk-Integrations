@@ -113,6 +113,6 @@ zE('webWidget:on', 'open', function() {
 // opens widget to run code above
 // closes widget to reset it
 setTimeout(function(){
-    // zE('webWidget', 'open')
+    zE('webWidget', 'open')
     zE('webWidget', 'close');
 }, 6000)
